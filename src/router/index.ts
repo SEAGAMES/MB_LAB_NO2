@@ -4,11 +4,6 @@ import { createRouter, createWebHistory } from "vue-router"; // for local
 
 
 const routes = [
-  // {
-  //   path: "/",
-  //   component: () => import("../views/MainPage.vue"),
-  // },
-  
   {
     path: '/',
     name: 'Home',
@@ -18,7 +13,6 @@ const routes = [
     path: '/main',
     name: 'Main',
     component: () => import("../views/main.vue"),
- 
   },
 ];
 
